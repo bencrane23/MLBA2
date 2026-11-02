@@ -4,7 +4,7 @@ Adapted from the course's Slice Street Pizza starter app (46-887). The business,
 
 **Business:** Mystery Meat Market, a fictional food hall with four vendor stalls (Sketchy Sausage Shack, Dumpling Roulette, Fry Day Fryers, Gloomy Pies) and shared seating.
 
-**Question the labels help answer:** Which safety and food quality problems should the manager follow up on today?
+**Question the labels help answer:** Which safety and food quality problems should the manager follow up on now?
 
 **Labels** (each comment gets exactly one):
 - **safety:** illness, an allergen mix-up, a foreign object, or a hygiene concern.
@@ -18,7 +18,7 @@ If the model returns anything else, the app records the label as `unclear`.
 
 **Customer tab:** choose a stall, then type a comment, choose stars, or both. The app labels the comment with an LLM (Groq) and saves it to `feedback.csv`.
 
-**Manager tab:** filter by stall; see comments received, average stars, comments needing manual review, comments by label, average stars by label, and the comments to read carefully (labeled safety, labeled unclear, or labeled praise with 1 or 2 stars).
+**Manager tab:** filter by stall; see comments received, average stars, comments to read now, comments by label, average stars by label, and the comments to read now (labeled safety or food quality, labeled unclear, or labeled praise with 1 or 2 stars).
 
 ## Files
 - `app2.py`: the Streamlit app
