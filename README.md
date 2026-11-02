@@ -18,7 +18,7 @@ If the model returns anything else, the app records the label as `unclear`.
 
 **Customer tab:** choose a stall, then type a comment, choose stars, or both. The app labels the comment with an LLM (Groq) and saves it to `feedback.csv`.
 
-**Manager tab:** filter by stall; see comments received, average stars, comments to read now, comments by label, average stars by label, and the comments to read now (labeled safety or food quality, labeled unclear, or labeled praise with 1 or 2 stars).
+**Manager tab:** filter by stall; see comments received, average stars, comments by label, average stars by label, and the comments to read now (labeled safety or food quality, labeled unclear, or labeled praise with 1 or 2 stars).
 
 ## Files
 - `app2.py`: the Streamlit app
